@@ -1,0 +1,61 @@
+.Auth{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Auth__logo{
+    color: rgb(236, 205, 26);
+    font-size: 5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.Auth__form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0;
+}
+
+.Form__input{
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.input{
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.input__name{
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.Auth__button{
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: rgb(236, 205, 26);
+    color: black;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.Auth__signup{
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,21 @@
+.Home{
+    margin-bottom: 1rem;
+}
+  
+.Home__title {
+    font-size: 2rem;
+    color: #f3ce13;
+    font-weight: 500;
+}
+    
+.Home__contentPone {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+  
+.Home__movies {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}  
